@@ -1,0 +1,224 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-size: auto;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: min-content;
+}
+
+#logo p{
+    margin: 10px 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.0rem;
+
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 10px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#navbar ul li a:active, #navbar ul li a:hover{
+    color: gray;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    
+}
+
+#intro{
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#welcome{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#photo{
+    margin-top: 91px;
+    margin-left: 34px;
+}
+
+#homeimg{
+    width: 700px;
+    height: 467px;
+}
+
+#edutable{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#education{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: #000; 
+    color: #fff; 
+    border-collapse: collapse; 
+    width: 90%;
+    margin: 1rem auto; 
+    font-family: sans-serif;
+    border: 1px solid #fff;
+    text-align: left; 
+    padding: 1rem; 
+  }
+  
+  th, td {
+    padding: 0.5rem; 
+  }
+  
+  th {
+    background-color: #222; 
+    font-weight: bold; 
+  }
+  
+
+  tr:nth-child(even) {
+    background-color: #1a1a1a;
+  }
+
+
+  #skillphoto{
+    display: flex;
+    flex-direction: row;
+    padding:4px;
+    
+}
+
+#skilllist{
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+
+#skill{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+
+#secondphoto{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#involvement{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#involve{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+
+#form{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#formname{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;  
+}
+
+form {
+    margin: 20px;
+    width: 600px; 
+    padding: 20px;
+    background-color: #000; 
+    color: #fff; 
+    font-family: sans-serif;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block; 
+    margin-bottom: 5px;
+  }
+  
+ 
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 45%; 
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+    border-radius: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #fff; 
+    color: #000; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+  }
+  
+
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  label[for="female"] {
+    margin-left: 5px;
+  }
+  
