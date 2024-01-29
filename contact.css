@@ -8,6 +8,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: black;
+    background-image: url("back.png");
     background-size: auto;
     color: white;
 }
